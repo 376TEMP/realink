@@ -14,11 +14,11 @@ Realink is a web application that pulls relevant news articles from top news sit
 
 ## Need and Target Audience:
 
-News websites are littered with a number of different topics, all of which are not displayed based on their users preferences. These days people are often on the move and don’t have time to browse a dozen pages to find topics that they are interested in, oftening missing out on key events that happen throughout the day.
+News websites are littered with a number of different topics, all of which are not displayed based on their users' preferences. These days people are often on the move and don’t have time to browse a dozen pages to find topics that they are interested in, often missing out on key events that happen throughout the day.
 
-The target audience are those who are out of the loop of current trending topics, wanting to quickly catch up on events occurring during the day. Realink allows user to log in, and quickly filter topics relevant to their interests, and also select which websites they would like to see links from. For example, if the user is interested in politics and science from BBC News, Realink will scan for links in those sections, then check against various social media platforms to see which of those links are trending, and display them in order filtering out the noise. This saves them time, allowing them to go about their day.
+The target audiences are those who are out of the loop of current trending topics, wanting to quickly catch up on events occurring during the day. Realink allows user to log in, and quickly filter topics relevant to their interests, and also select which websites they would like to see links from. For example, if the user is interested in politics and science from BBC News, Realink will scan for links in those sections, then check against various social media platforms to see which of those links are trending and display them in order filtering out the noise. This saves them time, allowing them to go about their day.
 
-Most of the content available online is event driven, meaning that it generates a series of events that make it fairly simple to measure engagement to some extent. Not only social media activities, but also the content itself might be linked and shared on other websites, and therefore it might have higher relevance to the user.
+Most of the content available online is event-driven, meaning that it generates a series of events that make it fairly simple to measure engagement to some extent. Not only social media activities, but also the content itself might be linked and shared on other websites, and therefore it might have higher relevance to the user.
 
 ## Links:
 
@@ -43,7 +43,7 @@ Reddit - number of links of posted, upvotes, and comments
 
 ## Design and Features:
 
-The features of Realink include link ranking, and modularity by preference filtering.
+The features of Realink include link ranking and modularity by preference filtering.
 
 Because Realink is a go-to application for quick digestion of trending news content, the interface will be light and simple to use. A column to the left of the page lists filters of the various topics pulled from the news sites such as Sports, Science, Politics, Entertainment, etc. The column to the right of the page lists filters of the various news websites these links come from. These filters allow the user to select exactly what topic they are interested in, and what websites they would like these links to come from.
 
@@ -55,9 +55,9 @@ Users can share links with other users who may share in topics of interest.
 
 ## API’s:
 
-Realink will make use of a set of api’s to accomplish the aggregation of articles and the raking of them. Data will pulled from standard rss feed from news outlets. In addition to using those rss feeds, we will be using Alexa, Google Trend and some other analytical tools api in order to properly come up with the best ranking algorithm.
+Realink will make use of a set of api’s to accomplish the aggregation of articles and the raking of them. Data will be pulled from standard RSS feed from news outlets. In addition to using those RSS feeds, we will be using Alexa, Google Trend and some other analytical tools api in order to properly come up with the best ranking algorithm.
 
 ## Implementation Overview:
 
-Realink will be implemented with a stack that consist of Ruby on Rails and a client side frameworks such as React. We have chosen this stack such that frontend logic can be easily decoupled from the backend(Ruby on Rails), so that we all can work simultaneously with less chance of conflicts. Note that this stack is powerful in that it allow us to change UI based on requirement changes without affecting our backend. This approach is often called single-page application, and it’s become very popular due to its modularity and user experience.
+Realink will be implemented with a stack that consists of Ruby on Rails and a client side frameworks such as React. We have chosen this stack such that frontend logic can be easily decoupled from the backend(Ruby on Rails), so that we all can work simultaneously with less chance of conflicts. Note that this stack is powerful in that it allows us to change UI based on requirement changes without affecting our backend. This approach is often called single-page application, and it’s become very popular due to its modularity and user experience.
 More at on this at https://en.wikipedia.org/wiki/Single-page_application.
